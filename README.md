@@ -10,6 +10,8 @@ Shared agent skills and templates for development workflows across projects.
 | Generic | [project-adr](skills/generic/project-adr/SKILL.md) | Record lasting technical decisions and their rationale. |
 | Generic | [project-todo](skills/generic/project-todo/SKILL.md) | Prepare and close tracked tasks. |
 | Generic | [project-guidance](skills/generic/project-guidance/SKILL.md) | Maintain focused agent instructions. |
+| Generic | [minimal-change](skills/generic/minimal-change/SKILL.md) | Complete coding changes with minimal complexity. |
+| Generic | [architecture-improvement](skills/generic/architecture-improvement/SKILL.md) | Choose useful designs and improve architecture incrementally. |
 | npm | [dependency-maintenance](skills/npm/dependency-maintenance/SKILL.md) | Audit and update npm dependencies. |
 
 Skills are grouped under `skills/<category>/<skill>/`. The CLI discovers them automatically; select them by skill name, regardless of category.
