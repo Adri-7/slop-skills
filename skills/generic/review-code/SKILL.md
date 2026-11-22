@@ -1,9 +1,11 @@
 ---
 name: review-code
-description: "Review a code diff, commit, or pull request for concrete defects, regressions, and missing coverage."
+description: "Review a code diff, commit, or pull request for concrete defects, regressions, and missing coverage. Use for standalone or independent review."
 ---
 
 # Review code
+
+When coordinating a requested or required independent review, use the [independent review procedure](references/independent-review.md). As the assigned reviewer, apply the steps below directly.
 
 Resolve the review scope and intended behavior from the request, diff, and available change description. Inspect affected callers and contracts outside the diff, including persisted data or error paths where relevant.
 
