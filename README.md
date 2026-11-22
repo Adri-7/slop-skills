@@ -27,6 +27,11 @@ Add `-g` for a global installation and `--agent codex` to target Codex. Update i
 - **Each repository** keeps a short `AGENTS.md` that points to its architecture and validation guidance. Local references cover commands, prerequisites, and execution restrictions. Give each rule one maintained source.
 - **Tests, scripts, and CI** enforce rules that can be checked reliably. [Project verification](skills/generic/project-verification/SKILL.md) helps add and maintain those checks. [Validate work](skills/generic/validate-work/SKILL.md) runs applicable checks and reports any gaps.
 
+## Recommended external skills
+
+- **Security audits** — Review a codebase for vulnerabilities and document verified findings with [Cloudflare's security-audit skill](https://github.com/cloudflare/security-audit-skill).
+- **Frontend design** — Design and build web interfaces with a distinct visual direction using [Anthropic's frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design).
+
 ## Optional statechart support
 
 For TLA+ state diagrams and counterexamples, install pstack's [statechart](https://github.com/cursor/plugins/tree/main/pstack/skills/statechart) skill.
